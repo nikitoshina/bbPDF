@@ -1,0 +1,31 @@
+title: bbPDF    
+
+author: Nikita Tkachenko
+version: 0.0.1
+pdf-engine: lualatex
+
+quarto-required: ">= 1.2.198"
+contributes:
+  formats: 
+    pdf:
+      template: "partials/template.tex"
+      include-in-header: 
+       - "partials/bb_preamble.tex"
+       - "partials/bb_settings.tex"
+      include-before-body:
+       - "partials/title.tex"
+      toc: false
+      knitr:
+        opts_chunk:
+          echo: false
+      documentclass: article
+      papersize: a4
+
+
+echo "# bbPDF" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nikitoshina/bbPDF.git
+git push -u origin main
