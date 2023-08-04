@@ -1,0 +1,55 @@
+\begin{titlepage}
+
+\centering
+
+\begin{tikzpicture}
+
+ \node[opacity=0.3,inner sep=0pt,remember picture,overlay] at (4.5,-3){\includegraphics[width= 0.55 \textwidth]{_extensions/bbpdf/partials/figures/0. general/bb_logo_gray.png}};
+
+\node[inner sep=0pt] (logo) at (0,0)
+    {\includegraphics[width=.2\textwidth]{_extensions/bbpdf/partials/figures/0. general/bb_logo.png}};
+    
+\node[text width = 0.5\textwidth, right = of logo](title){\sffamily\huge $myreport.title$};
+
+\node[text width = 0.5\textwidth, yshift = 0.75cm, below = of title](subtitle){\sffamily\large $if(subtitle)$ {$subtitle$} $endif$ };
+
+\gettikzxy{(subtitle.south)}{\sffamily\subtitlex}{\subtitley}
+\gettikzxy{(title.north)}{\titlex}{\titley}
+\draw[line width=1mm, com-color]($$(logo.east)!0.5!(title.west)$$) +(0,\subtitley) -- +(0,\titley);
+
+\end{tikzpicture}
+\vspace{3cm}
+
+\sffamily\groupnumber
+
+% \begin{table}[h]
+ \centering
+ \sffamily
+ \large
+% \begin{tabu} to 0.8\linewidth {cc}
+% \textbf{Mutiu Fakorede} & \textbf{Alex Yang} \\
+% \hline
+% 
+% \sffamily\reportauthors
+% 
+% \end{tabu}
+% 
+% \end{table}
+
+\sffamily \grouptutor
+
+\tikz[remember picture,overlay]\node[anchor=south,inner sep=0pt] at (current page.south) {\includegraphics[width=\paperwidth]{_extensions/bbpdf/partials/figures/0. general/bb_cover_col.png}};
+
+\mbox{}
+\vfill
+\sffamily \large \textcolor{white}{\placeanddate} \\
+
+\end{titlepage}
+
+
+
+
+
+
+
+

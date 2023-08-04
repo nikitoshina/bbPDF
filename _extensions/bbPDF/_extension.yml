@@ -1,5 +1,8 @@
 title: bbPDF    
 
+info:
+  title: "honrn"
+  
 author: Nikita Tkachenko
 version: 0.0.1
 pdf-engine: lualatex
@@ -13,12 +16,13 @@ contributes:
        - "partials/bb_preamble.tex"
        - "partials/bb_settings.tex"
       include-before-body:
+       - "partials/before.tex"
+      template-partials:
        - "partials/title.tex"
+       - "partials/front_page.tex"
       toc: false
       knitr:
         opts_chunk:
           echo: false
       documentclass: article
       papersize: a4
-
-

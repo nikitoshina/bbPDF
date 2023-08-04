@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.4)  4 AUG 2023 02:07
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.4)  4 AUG 2023 03:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -763,7 +763,60 @@ File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 167.
+\@float@every@codelisting=\toks49
+\c@codelisting=\count359
+(/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2023/06/19 version 6.0.4 text color boxes
+(/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks50
+\verbatim@line=\toks51
+\verbatim@in@stream=\read3
+) (/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+(/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box84
+\tcb@upperbox=\box85
+\tcb@lowerbox=\box86
+\tcb@phantombox=\box87
+\c@tcbbreakpart=\count360
+\c@tcblayer=\count361
+\c@tcolorbox@number=\count362
+\tcb@temp=\box88
+\tcb@temp=\box89
+\tcb@temp=\box90
+\tcb@temp=\box91
+(/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.0.4'
+(/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2022/07/20 v1.0.0 Image filling library for TikZ
+(/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2022/07/20 v1.0.0 Auxiliary code for tikzfill
+) (/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2022/07/20 v1.0.0 Image filling library
+\l__tikzfill_img_box=\box92
+)) (/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.0.4'
+)) (/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.0.4'
+(/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
+)
+Package pdfcol Info: pdfTeX's color stacks are not available.
+\tcb@testbox=\box93
+\tcb@totalupperbox=\box94
+\tcb@totallowerbox=\box95
+)) (/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+(/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
+File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
+\BKM@id=\count363
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 193.
+Package hyperref Info: Option `colorlinks' set `true' on input line 233.
 (/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/lato/lato.sty
 Package: lato 2019/06/20 Style file for Lato.
 (/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/fontaxes/fontaxes.sty
@@ -785,10 +838,10 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 ) (/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 (/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/Users/nikitoshina/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks49
-\XKV@tempa@toks=\toks50
+\XKV@toks=\toks52
+\XKV@tempa@toks=\toks53
 )
-\XKV@depth=\count359
+\XKV@depth=\count364
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 Requested font "[Lato-Regular.ttf]/OT" at 9.99997pt
@@ -2144,4 +2197,241 @@ Package fontspec Info: Font family 'fos' created for font 'OpenSans' with
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
 (fontspec)             <->s*[0.95]"[OpenSans-BoldItalic.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
-(fontspec)             - 'bold italic small cap
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             - (bc/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSansCondensed-Bold.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (bc/sc) with NFSS spec.: 
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-ExtraBold.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (eb/sc) with NFSS spec.: 
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-ExtraBoldItalic.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (eb/scit) with NFSS spec.: 
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-Italic.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+
+Package fontspec Info: OpenSans-Regular scale = 0.8053695102374823.
+
+
+Package fontspec Info: OpenSans-Light scale = 0.8120376838843035.
+
+
+Package fontspec Info: OpenSans-LightItalic scale = 0.8120376838843035.
+
+
+Package fontspec Info: OpenSansCondensed-Light scale = 0.8135345232300599.
+
+
+Package fontspec Info: OpenSansCondensed-LightItalic scale =
+(fontspec)             0.8135345232300599.
+
+
+Package fontspec Info: OpenSans-SemiBold scale = 0.7980877088389783.
+
+
+Package fontspec Info: OpenSans-SemiBoldItalic scale = 0.7980877088389783.
+
+
+Package fontspec Info: OpenSans-Bold scale = 0.7895214961943868.
+
+
+Package fontspec Info: OpenSans-BoldItalic scale = 0.7895214961943868.
+
+
+Package fontspec Info: OpenSansCondensed-Bold scale = 0.792356394870975.
+
+
+Package fontspec Info: OpenSans-ExtraBold scale = 0.7790689015089875.
+
+
+Package fontspec Info: OpenSans-ExtraBoldItalic scale = 0.7790689015089875.
+
+
+Package fontspec Info: OpenSans-Regular scale = 0.8053695102374823.
+
+
+Package fontspec Info: OpenSans-Italic scale = 0.8053695102374823.
+
+
+Package fontspec Info: Font family 'OpenSans(0)' created for font 'OpenSans'
+(fontspec)             with options
+(fontspec)             [Scale=MatchLowercase,Ligatures=TeX,Scale=1,Extension=.ttf,Ligatures={TeX,Common},Scale=0.95,FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={lc}{n}{*Condensed-Light},FontFace={lc}{it}{*Condensed-LightItalic},UprightFont={*-Regular},ItalicFont={*-Italic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiBoldItalic},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},FontFace={bc}{n}{*Condensed-Bold},FontFace={eb}{n}{*-ExtraBold},FontFace={eb}{it}{*-ExtraBoldItalic},Numbers={Monospaced,Lining}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-Light.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (l/sc) with NFSS spec.: 
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-LightItalic.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (l/scit) with NFSS spec.: 
+(fontspec)             - (lc/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSansCondensed-Light.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (lc/sc) with NFSS spec.: 
+(fontspec)             - (lc/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSansCondensed-LightItalic.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (lc/scit) with NFSS spec.: 
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-SemiBold.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (sb/sc) with NFSS spec.: 
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-SemiBoldItalic.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (sb/scit) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-Bold.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-BoldItalic.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             - (bc/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSansCondensed-Bold.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (bc/sc) with NFSS spec.: 
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-ExtraBold.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (eb/sc) with NFSS spec.: 
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-ExtraBoldItalic.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (eb/scit) with NFSS spec.: 
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-Italic.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 151.
+Requested font "[OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;" at 9.49997pt
+ -> /Users/nikitoshina/Library/TinyTeX/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Regular.ttf
+
+Package fontspec Info: OpenSans-Regular scale = 0.9499944400249773.
+
+
+Package fontspec Info: OpenSans-Light scale = 0.957860056750067.
+
+
+Package fontspec Info: OpenSans-LightItalic scale = 0.957860056750067.
+
+
+Package fontspec Info: OpenSansCondensed-Light scale = 0.9596256923223149.
+
+
+Package fontspec Info: OpenSansCondensed-LightItalic scale =
+(fontspec)             0.9596256923223149.
+
+
+Package fontspec Info: OpenSans-SemiBold scale = 0.941405002811362.
+
+
+Package fontspec Info: OpenSans-SemiBoldItalic scale = 0.941405002811362.
+
+
+Package fontspec Info: OpenSans-Bold scale = 0.9313005050857977.
+
+
+Package fontspec Info: OpenSans-BoldItalic scale = 0.9313005050857977.
+
+
+Package fontspec Info: OpenSansCondensed-Bold scale = 0.9346444831561852.
+
+
+Package fontspec Info: OpenSans-ExtraBold scale = 0.9189708766248992.
+
+
+Package fontspec Info: OpenSans-ExtraBoldItalic scale = 0.9189708766248992.
+
+
+Package fontspec Info: OpenSans-Regular scale = 0.9499944400249773.
+
+
+Package fontspec Info: OpenSans-Italic scale = 0.9499944400249773.
+
+
+Package fontspec Info: Font family 'OpenSans(1)' created for font 'OpenSans'
+(fontspec)             with options
+(fontspec)             [Scale=MatchLowercase,Extension=.ttf,Ligatures={TeX,Common},Scale=0.95,FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={lc}{n}{*Condensed-Light},FontFace={lc}{it}{*Condensed-LightItalic},UprightFont={*-Regular},ItalicFont={*-Italic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiBoldItalic},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},FontFace={bc}{n}{*Condensed-Bold},FontFace={eb}{n}{*-ExtraBold},FontFace={eb}{it}{*-ExtraBoldItalic},Numbers={Monospaced,Lining}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-Light.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (l/sc) with NFSS spec.: 
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-LightItalic.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (l/scit) with NFSS spec.: 
+(fontspec)             - (lc/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSansCondensed-Light.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (lc/sc) with NFSS spec.: 
+(fontspec)             - (lc/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSansCondensed-LightItalic.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (lc/scit) with NFSS spec.: 
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-SemiBold.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (sb/sc) with NFSS spec.: 
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-SemiBoldItalic.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (sb/scit) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-Bold.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-BoldItalic.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             - (bc/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSansCondensed-Bold.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (bc/sc) with NFSS spec.: 
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-ExtraBold.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (eb/sc) with NFSS spec.: 
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-ExtraBoldItalic.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             -  (eb/scit) with NFSS spec.: 
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"[OpenSans-Italic.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/OpenSans(1)/m/n on input line 151.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/OpenSans(1)/m/it on input line 151.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/OpenSans(1)/b/n on input line 151.
+) (./template.aux)
+\openout1 = `template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 303.
+LaTeX Font Info:    ... okay on input line 303.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 303.
+LaTeX Font Info:    ... okay on input line 303.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 303.
+LaTeX Font Info:    ... okay on input line 303.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 303.
+LaTeX Font Info:    ... okay on input line 303.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 303.
+LaTeX Font Info:    ... okay on input line 303.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 303.
+LaTeX Font Info:    ... okay on input line 303.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 303.
+LaTeX Font Info:    ... okay on input line 303.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 303.
+LaTeX Font Info:    ... okay on input line 303.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 303.
+LaTeX Font Info:    ... okay on input line 303.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 303.
+LaTeX Font Info:    ... okay on input line 303.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 303.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 303.
+Requested font "[latinmodern-math.otf]/OT" at 9.99997pt
+ -> /Users/nikitoshina/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm-
