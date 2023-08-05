@@ -10,6 +10,8 @@ pdf-engine: lualatex
 quarto-required: ">= 1.2.198"
 contributes:
   formats: 
+    html:
+      theme: custom.scss
     pdf:
       template: "partials/template.tex"
       include-in-header: 

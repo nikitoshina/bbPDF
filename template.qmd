@@ -1,5 +1,5 @@
 ---
-format: bbPDF-pdf
+format: bbPDF-html
 keep-tex: true
 number-sections: true
 ---

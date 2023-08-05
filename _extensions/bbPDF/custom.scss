@@ -1,0 +1,134 @@
+/*-- scss:defaults --*/
+@font-face {
+  font-family: 'Lato';
+  font-weight: 400; // Regular weight
+  src: url('_extensions/bbPDF/fonts/Lato-Regular.ttf') format('truetype');
+  display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 400; // Regular weight, italic
+  font-style: italic;
+  src: url('_extensions/bbPDF/fonts/Lato-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato Light';
+  font-weight: 300; // Light weight
+  src: url('_extensions/bbPDF/fonts/Lato-Light.ttf') format('truetype');
+  display: swapl;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 300; // Light weight, italic
+  font-style: italic;
+  src: url('_extensions/bbPDF/fonts/Lato-LightItalic.ttf') format('truetype');
+  display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 700; // Bold weight
+  src: url('_extensions/bbPDF/fonts/Lato-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('_extensions/bbPDF/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900; // Range of weights
+  font-stretch: 50% 200%; // Range of widths
+  display: swap;
+}
+
+// fonts/
+// $font-family-sans-serif: "Palatino Linotype", "Book Antiqua", Palatino,
+//  FreeSerif, serif !default;
+
+// colors
+$body-bg: #f9f9f3 !default;
+$body-color: #282a36 !default;
+$link-color: #1f9e89 !default;
+$selection-bg: #d5d6e2 !default;
+
+$main-color: #1f9e89;
+
+body {
+  font-family: "Open Sans";
+}
+h1,h2 {
+  text-align: left;
+  font-size: 24pt !important;
+} 
+
+h3 {
+  text-align: left;
+  font-size: 16pt !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato Light";
+  font-weight: 300;
+}
+
+b, strong{
+  color: $main-color;
+}
+
+.sidebar {
+  font-size: 12pt !important;
+}
+.sidebar-item-text {
+    font-size: 12pt ;
+}
+
+.quarto-figure-center>figure>p {
+    text-align: left !important;
+    padding-left: 0.5em;
+}
+
+.nav-link {
+  font-size: 12pt !important;
+}
+
+.nav-link active {
+  font-size: 12pt !important;
+}
+
+h2#toc-title {
+  font-size: 16pt !important;
+}
+
+
+
+
+
+.hovertext {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 250px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  border-radius: 5px;
+  padding: 5px 5px;
+  transition: opacity 0.5s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
