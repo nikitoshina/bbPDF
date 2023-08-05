@@ -1,3 +1,10 @@
-myreport:
-  title: "hello"
-  subtitle: "subtitle"
+book:
+  title: "USA Market Entry\\ Research CDP"
+  subtitle: "This report offers an in-depth analysis of the US Human Capital Management (HCM) software industry, focusing on market dynamics, trends, and strategic recommendations for CDP's successful entry into this competitive landscape."
+  author:
+    - name: Alex Zeng-Yang 
+    - name: Mutiu Fakorede 
+    - name: Jonathan Vergara-Phan 
+    - name: John Chetwynd 
+    - name: Nikita Tkachenko 
+    

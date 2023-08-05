@@ -20,9 +20,9 @@ contributes:
       template-partials:
        - "partials/title.tex"
        - "partials/front_page.tex"
-      toc: false
+      toc: true
       knitr:
         opts_chunk:
           echo: false
-      documentclass: article
+      documentclass: book
       papersize: a4

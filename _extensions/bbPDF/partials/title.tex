@@ -4,7 +4,7 @@
 
 % Add your group number (for DBL) or any other text.
 \newcommand\groupnumber{
-\textbf{Group xx}
+\textbf{Authored by}
 }
 
 % Insert authors and student numbers here
@@ -13,15 +13,10 @@ mfakorede@bridges-and-barriers.com & alex@bridges-and-barriers.com  \\
 Copy me & Copy me \\
 }
 
-% Add the name of your tutor (for DBL) or any other text.
-\newcommand\grouptutor{
- Nikita Tkachenko \\
- John Chetwynd \\
-}
 
 % Date and location (default: current date and Eindhoven)
 \newcommand\placeanddate{
-Eindhoven, \today
+San Francisco, \today
 }
 
 % Define com-color (color of the TU/e logo). Can be changed to drastically change the look of the template
@@ -62,7 +57,7 @@ Eindhoven, \today
 % Creates a beautiful header/footer
 \pagestyle{fancy}
 \lhead{\includegraphics[height = 24pt]{_extensions/bbPDF/partials/Figures/0. General/bb_logo.png}}
-\rhead{$myreport.title$}
+\rhead{$book.title$}
 \renewcommand{\footrulewidth}{0.4pt}
 \cfoot{Page \thepage}
 
@@ -85,13 +80,47 @@ Eindhoven, \today
 % \renewcommand{\mddefault}{l}
 % Customize section headings' font styles
 \usepackage{titlesec}
-\titleformat*{\section}{\Large\fontseries{l}\selectfont
+% \titleformat*{\section}{\Large\fontseries{l}\selectfont
+% \sffamily}
+% \titleformat*{\subsection}{\large\fontseries{l}\selectfont
+% \sffamily}
+% \titleformat*{\subsubsection}{\normalsize\fontseries{l}\selectfont
+% \sffamily}
+
+\titleformat{\chapter}
+  {\Large\sffamily\fontseries{l}\selectfont\sffamily} % Format for the chapter title
+  {} % Label (leave empty for no label)
+  {0pt} % Separation between label and title
+  {} % Code before the title
+  
+\titleformat*{\section}{\large\fontseries{l}\selectfont
 \sffamily}
-\titleformat*{\subsection}{\large\fontseries{l}\selectfont
+\titleformat*{\subsection}{\normalsize\fontseries{l}\selectfont
 \sffamily}
 \titleformat*{\subsubsection}{\normalsize\fontseries{l}\selectfont
 \sffamily}
 
+% Removes numbering from the chapter and starts with each section
+\renewcommand\thesection{\arabic{section}}
+
+\titlecontents{chapter}
+  [0em]{\addvspace{10pt}\bfseries}
+  {}{}{\titlerule*[1000pc]{.}\contentspage}
+  
+
+% Make Chapter Page look the same as other pages
+% Redefine the plain page style
+\fancypagestyle{plain}{%
+  \lhead{\includegraphics[height = 24pt]{_extensions/bbPDF/partials/Figures/0. General/bb_logo.png}}
+\rhead{$book.title$}
+  \cfoot{Page \thepage}
+  \renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
+}
+
+  
+% \let\chapter\section
+% \let\section\subsection
+% \let\subsection\subsubsection
 
 % Removes indent when starting a new paragraph
 \setlength\parindent{0pt}
@@ -106,3 +135,6 @@ Eindhoven, \today
 %% Load titlesec
 %% Revert \subparagraph to the llncs definition
 \let\subparagraph\llncssubparagraph
+
+\renewcommand\maketitle{}
+

@@ -4,14 +4,14 @@
 
 \begin{tikzpicture}
 
- \node[opacity=0.3,inner sep=0pt,remember picture,overlay] at (4.5,-3){\includegraphics[width= 0.55 \textwidth]{_extensions/bbpdf/partials/figures/0. general/bb_logo_gray.png}};
+ % \node[opacity=0.3,inner sep=0pt,remember picture,overlay] at (4.5,-3){\includegraphics[width=1\textwidth]{_extensions/bbpdf/partials/figures/0. general/bb_logo_gray.png}};
 
 \node[inner sep=0pt] (logo) at (0,0)
     {\includegraphics[width=.2\textwidth]{_extensions/bbpdf/partials/figures/0. general/bb_logo.png}};
     
-\node[text width = 0.5\textwidth, right = of logo](title){\sffamily\huge $myreport.title$};
+\node[text width = 0.5\textwidth, right = of logo](title){\sffamily\huge\nohyphens{$book.title$}};
 
-\node[text width = 0.5\textwidth, yshift = 0.75cm, below = of title](subtitle){\sffamily\large $if(subtitle)$ {$subtitle$} $endif$ };
+\node[text width = 0.5\textwidth, yshift = 0.75cm, below = of title](subtitle){\sffamily\large $if(subtitle)$ {$book.subtitle$} $endif$ };
 
 \gettikzxy{(subtitle.south)}{\sffamily\subtitlex}{\subtitley}
 \gettikzxy{(title.north)}{\titlex}{\titley}
@@ -21,6 +21,12 @@
 \vspace{3cm}
 
 \sffamily\groupnumber
+
+\sffamily{%
+$for(book.author)$
+$book.author.name$\\
+$sep$
+$endfor$}
 
 % \begin{table}[h]
  \centering
@@ -36,7 +42,6 @@
 % 
 % \end{table}
 
-\sffamily \grouptutor
 
 \tikz[remember picture,overlay]\node[anchor=south,inner sep=0pt] at (current page.south) {\includegraphics[width=\paperwidth]{_extensions/bbpdf/partials/figures/0. general/bb_cover_col.png}};
 
